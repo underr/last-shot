@@ -30,6 +30,12 @@ As last-shot is meant to personal use, you may run it in your machine (to use pm
 
 You may edit the bangs.json file or config.js before starting it.
 
+### Use
+
+You run queries at `/search`, for example: `http://localhost:3000/search?q=memerap !rbtmu`.
+
+There's a optional list of your bangs at `/list`.
+
 ### Configure
 
 #### bangs.json
