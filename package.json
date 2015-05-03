@@ -1,0 +1,12 @@
+{
+  "name": "last-shot",
+  "version": "1.0.0",
+  "description": "DuckDuckGo-like bang server",
+  "main": "index.js",
+  "author": "underr",
+  "license": "GPL3",
+  "dependencies": {
+    "koa": "^0.20.0",
+    "koa-route": "^2.4.1"
+  }
+}

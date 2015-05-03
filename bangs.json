@@ -1,0 +1,17 @@
+[
+{
+  "bang": "g",
+  "url": "https://www.google.com.br/search?q=%s",
+  "name": "Google"
+},
+{
+  "bang": "rbt",
+  "url": "https://rbt.asia/g/?task=search&ghost=&search_text=%s",
+  "name": "rbt /g/"
+},
+{
+  "bang": "rbtmu",
+  "url": "https://rbt.asia/mu/?task=search&ghost=&search_text=%s",
+  "name": "rbt /mu/"
+}
+]
