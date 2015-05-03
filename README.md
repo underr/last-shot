@@ -26,7 +26,7 @@ As last-shot is meant to personal use, you may run it in your machine (to use pm
 
 `cd ~/ && git clone https://github.com/underr/last-shot && cd last-shot && npm install`
 
-`pm2 start last-shot.js`
+`pm2 start index.js`
 
 You may edit the bangs.json file or config.js before starting it.
 
