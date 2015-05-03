@@ -19,7 +19,7 @@ for(var i=0; i < bangs.length; i++) {
 
 var index = function *() {
   this.body = logo + "\nPaths:\n * /list - list all bangs\n * /search - self-explanatory";
-}
+};
 
 var search = function *() {
   var query = this.query.q;
@@ -46,7 +46,7 @@ var search = function *() {
 var list = function*() {
   this.type = 'json';
   this.body = bangs;
-}
+};
 
 app.use(_.get('/', index));
 app.use(_.get('/search', search));
